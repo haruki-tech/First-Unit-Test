@@ -8,8 +8,9 @@ fun main() {
     // IntelliJ IDEA によるその修正案を確認できます。
     println("Hello, " + name + "!")
 
-    for (i in 1..5)
+    for (i in 1..5) {
         //TIP <shortcut actionId="Debug"/> を押してコードのデバッグを開始します。<icon src="AllIcons.Debugger.Db_set_breakpoint"/> ブレークポイントを 1 つ設定しましたが、
         // <shortcut actionId="ToggleLineBreakpoint"/> を押すといつでも他のブレークポイントを追加できます。
         println("i = $i")
+    }
 }
